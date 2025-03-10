@@ -1,0 +1,441 @@
+/* // X-Large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1399.98px) {}
+
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+    nav.navbar .navbar-nav li a.nav-link {
+        padding: 0 20px;
+    }
+    .client-word {
+        width: 100%;
+        display: block;
+        margin-top: 0;
+    }
+    .client-info {
+        text-align: center;
+    }
+    .client-img {
+        margin: 0 auto;
+    }
+    .banner-text p {
+        margin: 0 auto;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .shop-icon {
+        width: 120px;
+        height: 120px;
+    }
+    .shop-icon img {
+        margin: 0 auto;
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .navbar-brand {
+        max-width: 200px;
+    }
+    .footer-box {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+    }
+    .shop-icon {
+        width: 100px;
+        height: 100px;
+    }
+    /* menu css */
+    /* Navbar */
+    .navbar .brand {
+        /*
+        min-width: 170px;
+        max-width: 170px;
+*/
+        min-width: 190px;
+        max-width: 190px;
+        border-right: 1px solid rgba(24, 28, 52, 0.10);
+        padding: 1rem 0 1rem 1rem;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+        line-height: normal;
+        width: 35px;
+        height: 35px;
+        padding: 0;
+        z-index: 99;
+        border: none;
+        display: block;
+        text-align: center;
+        background-color: transparent;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .show-menu .navbar-toggler {
+        z-index: 5;
+        padding: 2px;
+        position: absolute;
+        right: 24px;
+        top: 30px;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        z-index: 99;
+    }
+    #navbarNav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 60%;
+        overflow: auto;
+        text-align: center;
+        border: 15px solid #000;
+        background-color: #000;
+        height: auto !important;
+        padding: 50px 10px 10px;
+        display: block !important;
+        outline-offset: -17px !important;
+        outline: 3px solid var(--ivGrade01) !important;
+        box-shadow: 0 0 15px 5px #90909030;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        z-index: 9;
+    }
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    li.nav-item {
+        margin: 15px 0;
+    }
+    html.show-menu::after {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #0008;
+    }
+    .menu {
+        --color: #fff;
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        margin: 0;
+        outline: none;
+        position: relative;
+        border: none;
+        background: none;
+        cursor: pointer;
+        -webkit-appearence: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .menu svg {
+        width: 64px;
+        height: 48px;
+        top: -6px;
+        left: -14px;
+        stroke: var(--color);
+        stroke-width: 4px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        display: block;
+        position: absolute;
+    }
+    .menu svg path {
+        -webkit-transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+        transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+        stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+        stroke-dashoffset: var(--offset, 126px);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    .menu svg path:nth-child(2) {
+        --duration: .7s;
+        --easing: ease-in;
+        --offset: 100px;
+        --array-2: 74px;
+    }
+    .menu svg path:nth-child(3) {
+        --offset: 133px;
+        --array-2: 107px;
+    }
+    .menu.active svg path {
+        --offset: 57px;
+    }
+    .menu.active svg path:nth-child(1),
+    .menu.active svg path:nth-child(3) {
+        --delay: .15s;
+        --easing: cubic-bezier(.2, .4, .2, 1.1);
+    }
+    .menu.active svg path:nth-child(2) {
+        --duration: .4s;
+        --offset: 2px;
+        --array-1: 1px;
+    }
+    .menu.active svg path:nth-child(3) {
+        --offset: 58px;
+        transition: all 0.5s linear;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .banner-text {
+        width: 100%;
+        padding: 0 15px;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .sho-cate-img {
+        padding: 0;
+    }
+    .shop-categories {
+        margin: 0;
+    }
+    .shop-categories {
+        padding: 15px;
+    }
+    ul.shop-categories-list {
+        margin: 0 -15px;
+    }
+    .shop-categories li {
+        width: 50%;
+        padding: 0 15px;
+        margin: 0;
+    }
+    .shop-icon {
+        width: 100px;
+        height: 100px;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .shop-categories-list h3 {
+        text-align: center;
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    .shop-categories h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .shop-categories p {
+        text-align: center;
+    }
+    .title-section {
+        margin-bottom: 0;
+    }
+    .title-section h2 {
+        font-size: 30px;
+    }
+    .client-word {
+        margin: 30px auto 30px;
+        border-width: 1px;
+        padding: 15px;
+        display: block;
+        width: 100%;
+    }
+    .title-section p {
+        margin-top: 10px;
+    }
+    .product-box {
+        margin-top: 10px;
+    }
+    .client-img {
+        max-width: 70px;
+        border: 1px solid #000;
+        border-radius: 100%;
+        margin: 0px auto 0;
+    }
+    .client-info p {
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: normal;
+    }
+    .client-info {
+        margin: 15px 0 0;
+    }
+    .graping-section {
+        padding: 50px 0;
+    }
+    .offer-box {
+        margin-bottom: 30px;
+    }
+    .off-box {
+        height: calc(100% - 10%);
+    }
+    .footer-box {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px 15px;
+    }
+    footer {
+        padding: 50px 0 0;
+    }
+    .right-menu ul li {
+        margin: 0 10px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    .wantbuy-box ul li label.form-check-label img {
+        max-width: 70px;
+        max-height: 40px;
+    }
+    .wantbuy-box ul li label.form-check-label,
+    .wantbuy-box ul li .form-check {
+        min-height: auto;
+    }
+    .box-white {
+        margin-bottom: 0;
+    }
+    .box-white .secondary-button,
+    .about-text .secondary-button {
+        min-width: 122px;
+        padding: 9px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .typeof-list label.form-check-label {
+        font-size: 14px;
+    }
+    .form-check {
+        padding: 0;
+    }
+    .accordion-button {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    .list-cm label.form-check-label {
+        font-size: 14px
+    }
+    .client-info h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+    .about-right {
+        margin-left: 0;
+    }
+    .about-text {
+        padding: 25px;
+        margin: 0;
+    }
+    .about-text h3 {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 11px;
+    }
+    .meet-our h2 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .team-img {
+        max-width: 100px;
+    }
+    .meet-our .owl-carousel {
+        margin-top: 20px;
+    }
+    .team-name h4 {
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .section-graping {
+        padding: 50px 0;
+    }
+    .contact-box {
+        height: auto;
+        flex: 1;
+        margin-bottom: 30px;
+    }
+    .myorder-box {
+        margin-top: 30px;
+    }
+    .payment-box {
+        margin: 15px;
+    }
+    .product-banner h1 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+    .navbar-brand {
+        max-width: 170px;
+    }
+    .right-menu ul.right-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .right-menu {
+        width: auto;
+        margin-right: 55px;
+    }
+    .menu {
+        position: absolute;
+        right: 15px;
+        top: 15px
+    }
+    .header-nav {
+        padding: 0 0 15px;
+    }
+    header {
+        height: 75px;
+    }
+    .banner-img {
+        max-width: 240px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}

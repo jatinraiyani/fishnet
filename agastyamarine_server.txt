@@ -1,0 +1,304 @@
+ACTIVATE SIDE ENTER CMD 
+
+php artisan up
+
+extension=pdo_mysql
+
+
+SERVER DETAILS 
+==============
+https://agastyamarine.in
+
+Server name  = agastyamarine
+data center = asia
+os = ubuntu 16.04
+
+
+IP : 184.168.125.244
+Host : ip-148-72-213-182.ip.secureserver.net
+username = agastya
+password = aGastya!2
+
+New Pass : Agastya@CA!2
+
+
+
+customerID : 351163392
+PIN : 9267
+
+-----------------------------
+
+BANK : HDFC BANK
+CO NAME : AGASTYA MARINE
+A/C NO : 50200055015280
+IFSC : HDFC0002416
+CONTACT : +91 7046425050
+
+-------------------------------
+
+FOR update Composer :: php /usr/local/bin/composer update 
+==========================================================
+
+
+sudo chmod -R  777 /etc/apache2/apache2.conf 
+sudo chmod -R  777 /etc/apache2/sites-available/000-default.conf 
+sudo chmod -R  777 /etc/apache2/sites-available/default-ssl.conf
+sudo chmod -R  777 /etc/ssl/certs
+sudo chmod -R  777 /etc/php/8.0/cli/php.ini
+sudo chmod -R  777 /var/www/html/fishnet
+sudo chmod -R  777 /fishnet
+sudo chmod -R  777 /var/www/html/fishnet/bootstrap/cache/config.php
+sudo chmod -R  777 /var/www/phpmyadmin
+sudo rm -rf vendor/
+
+
+
+
+
+
+
+
+composer PATH : php /usr/local/bin/composer
+
+SSL PATH : ===>  /etc/ssl/certs/agastyamarine.in
+
+SSLCertificateFile /etc/ssl/certs/agastyamarine.in/ee9a17c52834665a.crt
+SSLCertificateKeyFile /etc/ssl/certs/agastyamarine.in/private.key
+SSLCertificateChainFile /etc/ssl/certs/agastyamarine.in/gd_bundle-g2-g1.crt
+
+
+sudo a2enmod ssl
+sudo service apache2 restart
+apache2ctl configtest
+
+DocumentRoot /var/www/html
+ServerName agastyamarine.in www.agastyamarine.in
+	SSLEngine on
+	SSLCertificateFile /etc/ssl/certs/agastyamarine.in/ee9a17c52834665a.crt
+	SSLCertificateKeyFile /etc/ssl/certs/agastyamarine.in/ee9a17c52834665a.pem
+	SSLCertificateChainFile /etc/ssl/certs/agastyamarine.in/gd_bundle-g2-g1.crt
+	
+RewriteCond %{SERVER_NAME} =www.agastyamarine.in [OR]
+RewriteCond %{SERVER_NAME} =agastyamarine.in
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
+	
+	
+
+sudo unzip fishnet.zip
+
+SQ@Admin@2220
+
+
+ADMIN PANEL LOGIN 
+=================
+Link : http://www.agastyamarine.in/admin/login
+Email : superadmin@fishnet.com
+Pass : superadmin#super123!
+
+
+
+MYSQL DETAIL 
+============
+
+user : root
+pass : aGastya!2
+
+Razorpay DETAILS
+================
+
+Key Id : rzp_test_7v2wcER3a1wqzt
+Key Secret : SumAJ2iDMSQed9xiclZIRgj9
+
+Twillio DETAILS
+=============== 
+
+SID :: AC61499d8950f5fb61b141aa39828e5475
+Token :: 9f766355337c4ccc7e52dfcdd50fcc74
+service sid : VAca099701d885e77b59a0f78278545199
+contact No :: +12532014537
+
+
+Recovery COde : u6urLeA4XVSCy7eDvDUG7ol4Bi7dNqiBlPh22rCY
+
+Form custom message system 
+----------------------------
+$message = $twilio->messages
+           ->create("+91".$data['contact']."",
+			[
+			   "body" => "This will be the body of the new message!",
+				"from" => "+12532014537"
+			]
+          );
+		  
+		  
+
+Image Ratio 
+----------------------------
+
+Home page banner images size: 1920*1080 px
+Product images size: 600*600 px
+Clients images size: 216*222 px
+Get 10% Off images size: 526*526 px
+About us images size: 618*618 px
+
+
++++++++++++++++++++++++++
++++++++++TASKS+++++++++++
++++++++++++++++++++++++++
+
+=====================
+==== ADMIN PANEL ==== 
+=====================
+
+00. add dynemic weight per 100 kan beside size multiple add in PRODUCT MODULE. [3 hours] [DONE]
+01. remove weight and add price and chart image in PRODUCT MODULE. [DONE]
+02. add multiple image upload in PRODUCT MODULE. [1 day] [DONE]
+03. solve issue in uploaded image remove functionality at upload time in PRODUCT MODULE. [DONE]
+04. remove Color,Payment availability in PRODUCT MODULE. [3 hours] [DONE]
+05. create Team Module for edit team member. [canceled]
+06. list of contact us inquiry.[30 minutes][DONE]
+07. dynemic offer poster.[2 hours][DONE]
+08. dynemic slider.[2 hours][DONE]
+09. add product is QTY base OR Weight base in PRODUCT MODULE. [DONE]
+10. remove comment of file_exists and unlink product size chart code from product controller update method.[DONE]
+11. listing address and mobile number of order. [DONE] 
+
+
+
+===================
+====FRONT PANEL==== 
+===================
+
+00. create design of multiple image  [1 day] [DONE]
+01. set product availibilities logic. [5 hours] [DONE]
+02. set size availability logic. [4 hours] [DONE]
+03. search functionality by product name. [1-2 days] [DONE]
+04. filter functionality by type,brand. [2 days] [DONE]
+05. remove continue button logic from wizard, need to set onclick category OR subcategory or type. [5 hours][DONE]
+06. set redirection at home page type listing. [4 hours][DONE]
+07. set review functionalities on beside order listing in profile. [5 hours] [canceled]
+08. set default images where it's not found. [1 hours] [DONE]
+09. set size wise KAN weight logic in cart [2 Days] [canceled]
+10. If order done by user then admin call to user and verify order after payment option available for user.[DONE]
+11. set adbanner only one and in slider size is current two adbanner.[DONE]
+12. check order is greter then 5000 then user can buy otherwise show popup.[DONE]
+13. add text editor in product description.[DONE]
+14. In home page set list all product type wise slider. and put button view all ,when user click on view all then redirect new page and list all specific type products. [DONE]
+15. set price per kg OR qty in price list.[DONE]
+16. solve image coursol issue in multi product view.[DONE]
+17. solve product description content editor space issue.[DONE] 
+18. set ad banner before product listing in home page.[REMAINING] 
+19. set city list as given client and add new fields as given by client.[DONE] 
+20. set shopping address of register address.[CANCELED]
+21. solve cart count issue [DONE]
+22. solve weight base product popup qty issue [DONE] 
+23. check price is not set by size main price set in all place [DONE]
+24. check flow of otp verify in front and API (if opt is wrong then set exception message and in front if verify page is reload then verify page mobile number is removed) [DONE]
+25. set all types error pages. [REMAINING] 
+
+
+=============
+====APIs ==== 
+============= 
+
+00. search product
+01. filter product
+02. add to cart 
+03. get cart 
+04. cart qty +-
+05. checkout
+06. payment 
+07. order list
+08. order payment slip 
+09. team 
+10. contact us
+11. notification
+
+1. AUTH
+
+Register  => register
+Login => login 
+Profile => profile
+Update Profile => update-profile
+Change Password => change-password
+Logout => logout
+Forgot Password => link
+
+2. WIZARD 
+
+Type List  => type-list
+Category By Type => category-by-type
+SubCategory By Category => subcategory-by-category
+Product By SubCategory => product-by-subcategory
+
+3. PRODUCT 
+
+List => product-list
+By Type => product-by-type
+By Category => product-by-category
+By SubCategory => product-by-subcategory
+
+
+SSL insatll in ubuntu 16.04 godaddy 
+
+https://coderstent.com/install-godaddy-ssl-certificate-on-ubuntu-16-04/
+
+
+Twilio php version issue CURL 
+
+https://superuser.com/questions/1479799/twilio-laravel-use-of-undefined-constant-curlopt-url-assumed-curlopt-url-in
+
+
+
+
+{
+    "name": "agastyamarine",
+    "host": "184.168.125.244",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "agastya",
+    "password": "aGastya!2",
+    "remotePath": "/var/www/html/fishnet",
+    "uploadOnSave": true,
+    "ignore": [
+        ".vscode",
+        ".git",
+        ".DS_Store",
+        "**/storage/**",
+        ".env"
+    ]
+}
+
+
+if(order_status == 'pending_for_call'){
+only lable 'PENDING FOR CALL' [LightYellow - #FFFFE0]
+} elseif(order_status == 'ready_for_pay') {
+button 'PAY' [when user click this button then option payment option screen][Black - #000000]
+} elseif(order_status == 'pending'){
+  only lable 'PENDING' [if payment_method == 'online' then we need to provide slip upload option] [Orange-#FFA500]
+} elseif(order_status == 'confirm'){
+  only lable 'CONFIRMED' [dark green- #006400]
+} elseif(order_status == 'cancel'){
+  only lable 'CANCELED' [red - #FF0000]
+} elseif(order_status == 'success'){
+  only lable 'SUCCESSED' [green - #008000]
+} elseif(order_status == 'slip_refuse'){
+  only lable 'REFUSED'        [here we need to provide slip upload option again.] [crimson- #DC143C]
+}
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+	   
